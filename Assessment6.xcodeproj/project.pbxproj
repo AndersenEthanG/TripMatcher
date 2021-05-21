@@ -14,6 +14,8 @@
 		AA8B86A32658080600476ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8B86A22658080600476ED4 /* Assets.xcassets */; };
 		AA8B86A62658080600476ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8B86A42658080600476ED4 /* LaunchScreen.storyboard */; };
 		AA8B86B52658138600476ED4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B86B42658138600476ED4 /* CoreDataStack.swift */; };
+		AA8B86B72658171F00476ED4 /* Location+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B86B62658171F00476ED4 /* Location+Convenience.swift */; };
+		AA8B86B92658172900476ED4 /* Activity+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B86B82658172900476ED4 /* Activity+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AA8B86A52658080600476ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8B86A72658080600476ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8B86B42658138600476ED4 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		AA8B86B62658171F00476ED4 /* Location+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+Convenience.swift"; sourceTree = "<group>"; };
+		AA8B86B82658172900476ED4 /* Activity+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				AA8B86B42658138600476ED4 /* CoreDataStack.swift */,
+				AA8B86B62658171F00476ED4 /* Location+Convenience.swift */,
+				AA8B86B82658172900476ED4 /* Activity+Convenience.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8B86B92658172900476ED4 /* Activity+Convenience.swift in Sources */,
+				AA8B86B72658171F00476ED4 /* Location+Convenience.swift in Sources */,
 				AA8B86A12658080600476ED4 /* Assessment6.xcdatamodeld in Sources */,
 				AA8B86972658080600476ED4 /* AppDelegate.swift in Sources */,
 				AA8B86992658080600476ED4 /* SceneDelegate.swift in Sources */,
